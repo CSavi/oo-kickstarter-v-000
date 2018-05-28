@@ -17,7 +17,7 @@ attr_reader :name
     project.backers << self  
   end  
   
-  def back_project(backer)
-    Project.backers << backer 
-  end 
+  # # def back_project(backer)
+  #   Project.backers << backer 
+  # end 
 end   
