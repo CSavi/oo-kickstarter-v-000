@@ -18,6 +18,6 @@ attr_reader :name
   end  
   
   def back_project(backer)
-    
+    Project.backers
 
 end   
