@@ -12,7 +12,7 @@ class Project
     @title 
   end   
   
-  def add_backer(backer)
+  def add_backer(project)
     @backers << backer 
   end 
 end   
